@@ -22,8 +22,17 @@ strong {
 .intro-chunk {
   max-width: 320px;
   padding: 16px;
+  margin: 48px 0;
 }
 
+p:last-child {
+  margin-bottom: 0;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 32px;
+}
 main {
   background-color: hsl(0deg, 0%, 40%) ;
   padding: 48px 0;
